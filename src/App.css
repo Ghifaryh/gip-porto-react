@@ -756,3 +756,10 @@ header {
   }
 }
 /* End Media Screen 666p */
+
+/* for my phone  */
+@media (min-width: 391px) {
+  .projects-title {
+    margin-bottom: 0rem !important;
+  }
+}
