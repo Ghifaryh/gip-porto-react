@@ -614,7 +614,9 @@ header {
     display: flex;
     font-size: 1.3rem;
     color: var(--color-white);
+    -webkit-tap-highlight-color: transparent;
   }
+
   .menus .active {
     background: var(--color-danger);
   }
