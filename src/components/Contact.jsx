@@ -1,4 +1,4 @@
-import { TbBrandFiverr } from "react-icons/Tb"
+import { TbBrandFiverr } from "react-icons/tb"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 
 // Import contactImage from '../assets/contact.png'

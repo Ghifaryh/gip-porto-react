@@ -1,6 +1,6 @@
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
-import { TbBrandFiverr } from 'react-icons/Tb'
-import TypedText from '../UI/TypedText'
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa"
+import { TbBrandFiverr } from "react-icons/tb"
+import TypedText from "../UI/TypedText"
 
 export default function Header() {
   return (
@@ -18,7 +18,7 @@ export default function Header() {
             <TypedText />
             <br />
             <h5>
-              From <span>In</span>{' '}
+              From <span>In</span>{" "}
             </h5>
           </div>
           <div className="social">
