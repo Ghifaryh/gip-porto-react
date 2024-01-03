@@ -14,7 +14,7 @@ export default function Contact() {
             <a href="mailto:mhghifaryy@gmail.com">mhghifaryy@gmail.com</a>
           </h5>
           <p>+62 89607626982</p>
-          <p>Bandung, West Java, Indonesia</p>
+          <p>Bandung, Indonesia</p>
 
           <div className="social">
             <a href="" target="_blank">
