@@ -7,7 +7,8 @@ export const AboutData = [
     AboutMe: "Hi! I'm Ghifary",
     AboutContactText: "Feel free to fuk me!",
     Email: "mhghifaryy@gmail.com",
-    CV: "CV",
+    // CV: "CV",
+    CV: "https://drive.google.com/file/d/10123gJtee5GAKJkIWqgYT2pbRCno08Hy/view?usp=sharing",
   },
 ]
 
