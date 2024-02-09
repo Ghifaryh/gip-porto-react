@@ -7,7 +7,7 @@ import Contact from "./components/Contact"
 import Projects from "./components/Projects"
 import Services from "./components/Services"
 import Skills from "./components/Skills"
-import Testimonial from "./components/Testimonial"
+// import Testimonial from "./components/Testimonial"
 import Menu from "./components/Menu"
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
       <Header />
       <About />
       <Skills />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Services />
       <Projects />
       <Contact />

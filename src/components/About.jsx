@@ -1,5 +1,6 @@
 import TitleOne from "../UI/TitleOne"
 import { AboutData } from "../data/Data"
+import myphoto from "../assets/me.jpg"
 
 export default function About() {
   return (
@@ -9,11 +10,11 @@ export default function About() {
           return (
             <div className="container about-container" key={index}>
               <div className="about-left">
-                <img src="" alt={Image} />
+                <img src={myphoto} alt={Image} />
               </div>
               <div className="about-right">
                 <TitleOne
-                  titleSm={"Let me fuk my self"}
+                  titleSm={"Let me introduce myself"}
                   title={"About "}
                   titleEx={"Me"}
                 />

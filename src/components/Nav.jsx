@@ -1,4 +1,5 @@
 import { useState } from "react"
+import mylogo from "../assets/GH-logo-2-trnpt.png"
 
 export default function Nav() {
   const [active, setActive] = useState("#")
@@ -7,7 +8,7 @@ export default function Nav() {
     <nav>
       <div className="container nav-container">
         <a href="" className="logo">
-          <img src="" alt="Logo" />
+          <img src={mylogo} alt="Logo" />
         </a>
 
         <ul className="nav-links">

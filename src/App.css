@@ -156,7 +156,9 @@ nav {
 }
 
 .logo {
-  max-width: 260px;
+  /* max-width: 260px; */
+  /* max-width: 80px; */
+  max-width: 80px;
 }
 
 .nav-links {
@@ -588,7 +590,8 @@ header {
     display: none;
   }
   .logo img {
-    max-width: 200px;
+    /* max-width: 200px; */
+    max-width: 70px;
   }
 
   /* start menus */
@@ -695,7 +698,8 @@ header {
     height: 4rem;
   }
   .logo img {
-    max-width: 160px;
+    /* max-width: 160px; */
+    max-width: 40px;
   }
 
   /* Start Header */

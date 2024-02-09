@@ -3,9 +3,9 @@
 
 export const AboutData = [
   {
-    Image: "test",
+    Image: "My Photo",
     AboutMe: "Hi! I'm Ghifary",
-    AboutContactText: "Feel free to fuk me!",
+    AboutContactText: "Feel free to contact me!",
     Email: "mhghifaryy@gmail.com",
     // CV: "CV",
     CV: "https://drive.google.com/file/d/10123gJtee5GAKJkIWqgYT2pbRCno08Hy/view?usp=sharing",
