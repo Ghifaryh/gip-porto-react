@@ -6,7 +6,10 @@ export default function About() {
   return (
     <section id="About">
       {AboutData.map(
-        ({ Image, AboutMe, AboutContactText, Email, CV }, index) => {
+        (
+          { Image, AboutMe, AboutContactText, Email, CV, Skilsheets },
+          index
+        ) => {
           return (
             <div className="container about-container" key={index}>
               <div className="about-left">
@@ -21,7 +24,8 @@ export default function About() {
 
                 <div className="aboutMe-info">
                   <h5 className="about-small-title">
-                    A story of hardwork and perseverance.
+                    Detail-oriented who is meticulous and passionate about
+                    creating user-friendly systems.
                   </h5>
                   <p>{AboutMe}</p>
                 </div>
@@ -36,8 +40,22 @@ export default function About() {
                   <a href="#Contact" className="btn btn-danger">
                     Hire Me
                   </a>
-                  <a href={CV} download={CV} className="btn btn-primary">
-                    Download CV
+                  <a
+                    href={CV}
+                    download={CV}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-primary"
+                  >
+                    CV
+                  </a>
+                  <a
+                    href={Skilsheets}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-primary"
+                  >
+                    Skillsheets
                   </a>
                 </div>
               </div>

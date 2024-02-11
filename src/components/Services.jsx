@@ -9,7 +9,7 @@ export default function Services() {
       <div className="container services-container">
         <TitleOne
           titleEx={"Services"}
-          titleSm={"What I will do for you"}
+          titleSm={"What I can do for you"}
           className={"services-title"}
         />
 
@@ -27,7 +27,7 @@ export default function Services() {
         </div>
 
         <div className="services-shape">
-          <img src="" alt="services-shape" />
+          {/* <img src="" alt="services-shape" /> */}
         </div>
       </div>
     </section>

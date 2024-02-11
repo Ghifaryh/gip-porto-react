@@ -74,9 +74,9 @@ export default function Projects() {
           </div>
         </Swiper>
 
-        <a href="" className="btn btn-danger Explore-btn">
+        {/* <a href="" className="btn btn-danger Explore-btn">
           Explore More
-        </a>
+        </a> */}
       </div>
     </section>
   )

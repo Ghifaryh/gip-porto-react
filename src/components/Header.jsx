@@ -1,5 +1,4 @@
 import { FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa"
-// import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa"
 import { TbBrandFiverr } from "react-icons/tb"
 import TypedText from "../UI/TypedText"
 
@@ -23,22 +22,32 @@ export default function Header() {
             </h5>
           </div>
           <div className="social">
-            {/* <a href="" target="_blank">
-              <FaFacebook />
-            </a> */}
-            <a href="https://www.instagram.com/ghifaryh/" target="">
+            <a
+              href="https://www.instagram.com/ghifaryh/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaInstagram />
             </a>
-            <a href="https://twitter.com/ghifaryha" target="">
+            <a
+              href="https://twitter.com/ghifaryha"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaTwitter />
             </a>
-            <a href="https://www.fiverr.com/rga_team" target="">
+            <a
+              href="https://www.fiverr.com/rga_team"
+              target="_blank"
+              rel="noreferrer"
+            >
               <TbBrandFiverr />
             </a>
-            {/* <a href="" target="_blank">
-              <TbBrandFiverr />
-            </a> */}
-            <a href="https://www.linkedin.com/in/ghifaryh/" target="">
+            <a
+              href="https://www.linkedin.com/in/ghifaryh/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin />
             </a>
           </div>
