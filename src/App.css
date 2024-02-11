@@ -731,6 +731,8 @@ header {
   }
   .about-action-aria {
     justify-content: center;
+    /* flex-direction: column;
+    align-items: flex-start; */
   }
 
   /* Start Skills  */

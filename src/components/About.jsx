@@ -37,9 +37,9 @@ export default function About() {
                 </div>
 
                 <div className="about-action-aria">
-                  <a href="#Contact" className="btn btn-danger">
+                  {/* <a href="#Contact" className="btn btn-danger">
                     Hire Me
-                  </a>
+                  </a> */}
                   <a
                     href={CV}
                     download={CV}
