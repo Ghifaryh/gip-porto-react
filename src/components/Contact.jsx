@@ -13,7 +13,7 @@ export default function Contact() {
           <h5>
             <a href="mailto:mhghifaryy@gmail.com">mhghifaryy@gmail.com</a>
           </h5>
-          <p>+62 89607626982</p>
+          {/* <p>+62 89607626982</p> */}
           <p>Bandung, Indonesia</p>
 
           <div className="social">
