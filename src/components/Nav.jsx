@@ -32,20 +32,20 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#Services"
-              onClick={() => setActive("#Services")}
-              className={active === "#Services" ? "active" : ""}
-            >
-              Services
-            </a>
-          </li>
-          <li>
-            <a
               href="#Projects"
               onClick={() => setActive("#Projects")}
               className={active === "#Projects" ? "active" : ""}
             >
               Projects
+            </a>
+          </li>
+          <li>
+            <a
+              href="#Services"
+              onClick={() => setActive("#Services")}
+              className={active === "#Services" ? "active" : ""}
+            >
+              Services
             </a>
           </li>
           <li>

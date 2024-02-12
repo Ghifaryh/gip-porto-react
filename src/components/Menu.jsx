@@ -27,19 +27,19 @@ export default function Menu() {
       </a>
 
       <a
-        href="#Services"
-        onClick={() => setActive("#Services")}
-        className={active === "#Services" ? "active" : ""}
-      >
-        <RiServiceLine />
-      </a>
-
-      <a
         href="#Projects"
         onClick={() => setActive("#Projects")}
         className={active === "#Projects" ? "active" : ""}
       >
         <GoProjectSymlink />
+      </a>
+
+      <a
+        href="#Services"
+        onClick={() => setActive("#Services")}
+        className={active === "#Services" ? "active" : ""}
+      >
+        <RiServiceLine />
       </a>
 
       <a
