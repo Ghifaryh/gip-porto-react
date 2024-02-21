@@ -8,7 +8,7 @@ export const AboutData = [
     AboutContactText: "Feel free to contact me!",
     Email: "mhghifaryy@gmail.com",
     // CV: "CV",
-    CV: "https://drive.google.com/file/d/10123gJtee5GAKJkIWqgYT2pbRCno08Hy/view?usp=sharing",
+    CV: "https://drive.google.com/file/d/10SYcMfs5YvXbG8hYn5FRs1utCQs0WprV/view?usp=sharing",
     Skilsheets:
       "https://docs.google.com/spreadsheets/d/1mBgAAr7vxLdhk8nsI9AC8aUps85WfmldcvvM0OvO6yU/edit?usp=sharing",
   },
